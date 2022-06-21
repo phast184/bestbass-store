@@ -1,5 +1,5 @@
 import React from "react";
-import banner from "../bestbass-store/schemas/banner";
+import banner from "../bestbass-store-sanity/schemas/banner";
 import { Product, HeroBanner, FooterBanner } from "../components";
 import { client } from "../lib/client";
 const Home = ({ productsData, bannerData }) => {
